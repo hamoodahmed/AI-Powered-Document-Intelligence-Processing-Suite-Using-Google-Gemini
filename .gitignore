@@ -1,0 +1,62 @@
+# ========================================================
+# PDF Genius App - Security & Deployment .gitignore
+# ========================================================
+
+# 1. Environment & API Keys (CRITICAL SECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# 2. Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# 3. Production Build Artifacts
+dist/
+dist-ssr/
+build/
+out/
+server.js
+*.local
+
+# 4. Logs & Debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 5. OS & System Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 6. IDE & Editor Configs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 7. Vercel & Hosting Artifacts
+.vercel
+.turbo
+.cache
+
+# 8. Temporary test files & coverage
+coverage/
+*.tmp
+*.temp

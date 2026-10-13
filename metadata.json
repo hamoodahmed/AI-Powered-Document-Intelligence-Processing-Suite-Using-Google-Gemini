@@ -1,0 +1,6 @@
+{
+  "name": "PDF Genius App",
+  "description": "Modern AI-Powered PDF Web Application with PDF merge, split, compress, watermark, protect, image conversion, and AI summarization, chat, and key point extraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
